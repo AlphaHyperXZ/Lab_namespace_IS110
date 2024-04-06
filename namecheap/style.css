@@ -1,0 +1,154 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header {
+    background-color: #fff;
+    color: #fff;
+    height: 100px;
+
+}
+
+
+.nav-sup{
+    background-color: #2e3133;
+    margin: 0px;
+    padding-top: 0px;
+    
+}
+.nav-color{
+    color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+}
+.space{
+    padding-right: 780px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav ul li a{
+    color: grey;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a img {
+    height: 50px;
+    width: 200px;
+
+}
+
+footer {
+    background-color: #fff;
+    color: black;
+    padding: 10px 0;
+
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+section{
+    height: 500px;
+    background-image: url(img/hosting-hero-banner.4fe95a1d4d246946641f8f350f4d1fcb.svg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+
+
+ 
+}
+section h6{
+    background-color: rgba(46, 49, 51, 0.9); /* Gris con opacidad */
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0px;
+}
+section h6 a{
+  text-decoration: none;
+  color: #fff;
+}
+section h6 a:hover{
+    color: #fff;
+  }
+section h1 {
+    font-size: 60px;
+}
+section p {
+    font-size: 25px;
+}
+footer a{
+   text-decoration: none;
+   color: darkslategrey;
+   font-weight: bold;
+   justify-content: space-between;
+   
+}
+footer p{
+    color: gray;
+}
+footer ul{
+    list-style-type: none;
+    padding: 0;
+}
+footer ul li{
+    display: inline;
+    margin-right: 20px;
+}
+.btnd{
+
+    background-color: #dd462e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+ 
+}
+
+.btnd:hover {
+    background-color: #af2f1e; 
+}
+
+.card-sin-borde{
+    border: none;
+}
+
+.container-nav{
+margin: 0;
+
+}
+header ul li a{
+    padding-left: 10px;
+}
